@@ -1,0 +1,23 @@
+---
+api: v1
+kind: bucket
+metadata:
+  name: test-bucket
+  labels:
+    department: "运维中心"
+    project: "数据采集人物"
+    projectNumber: "JF-3245123513"
+    applicant: "付旭昊"
+    region: "美国西部"
+    type: "存储账号"
+  endTime: "2022-12-30 00:00:00"
+email:
+  enable: true
+  address: "fuxuhao@datatang.com"
+  subject: "oss账号开通"
+ram:
+  enable: true
+  name: "test-bucket-ram"
+  group: "test-bucket-ram-group"
+  policy:
+    - readWrite

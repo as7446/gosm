@@ -1,0 +1,17 @@
+server:
+  httpauth:
+    enabled: false
+    username: ""
+    password: ""
+  addr: :11313
+  logOutfile:
+  mode: product
+  db_host: 10.10.12.48
+  db_port: 3306
+  db_name: chengbenhesuan
+  db_user: devmysql
+  db_password: 9XLmhJK5DPUO1DP2UhUA
+  conn_max_idle: 30
+  connMaxConnection: 200
+client:
+  server_url: http://localhost:11313
