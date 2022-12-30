@@ -3,7 +3,7 @@ server:
     enabled: false
     username: ""
     password: ""
-  addr: :11313
+  addr: :9000
   logOutfile:
   mode: product
   db_host: 
@@ -14,4 +14,4 @@ server:
   conn_max_idle: 30
   connMaxConnection: 200
 client:
-  server_url: http://localhost:11313
+  server_url: http://localhost:9000
